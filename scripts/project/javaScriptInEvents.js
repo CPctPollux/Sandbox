@@ -109,7 +109,7 @@ const scriptsInEvents = {
 	{
 try {
     // 1. Resolve the correct runtime path for games.json
-    const jsonUrl = await runtime.assets.getProjectFileUrl("games.json");
+    const jsonUrl = await runtime.assets.getProjectFileUrl("Files/games.json");
     const response = await fetch(jsonUrl);
     const games = await response.json();
 
