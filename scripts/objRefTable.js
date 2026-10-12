@@ -181,7 +181,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.Fade.Acts.SetFadeInTime,
 		C3.Plugins.Touch.Cnds.OnTouchObject,
 		C3.Plugins.System.Acts.GoToLayout,
-		C3.Plugins.System.Acts.GoToLayoutByName
+		C3.Plugins.System.Acts.GoToLayoutByName,
+		C3.Plugins.Browser.Exps.QueryParam
 	];
 };
 self.C3_JsPropNameTable = [
