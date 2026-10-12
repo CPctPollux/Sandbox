@@ -1,0 +1,110 @@
+{
+    "c2array": true,
+    "size": [
+        5,
+        6,
+        1
+    ],
+    "data": [
+        [
+            [
+                "start"
+            ],
+            [
+                "start"
+            ],
+            [
+                "start"
+            ],
+            [
+                "NPC_answer"
+            ],
+            [
+                "NPC_answer"
+            ],
+            [
+                "NPC_answer"
+            ]
+        ],
+        [
+            [
+                "La deadline approche, il va falloir mettre les bouchées doubles ! "
+            ],
+            [
+                "Comment te sens-tu, Juliette ? Tu veux parler de ce qui ne va pas ?"
+            ],
+            [
+                "Courage, c’est la dernière ligne droite ! Allez, je t’offre le café."
+            ],
+            [
+                "Je comprends, les clients sont souvent difficiles ! Je te donnerai des jours de récup’ à la fin."
+            ],
+            [
+                "Je vais voir avec le client si je peux négocier une nouvelle deadline."
+            ],
+            [
+                "Je vais aller sonder les autres équipes pour voir si tu peux avoir de l’aide."
+            ]
+        ],
+        [
+            [
+                "ending_angry"
+            ],
+            [
+                "NPC_answer"
+            ],
+            [
+                "ending_sad"
+            ],
+            [
+                "ending_sad"
+            ],
+            [
+                "ending_neutral"
+            ],
+            [
+                "ending_happy"
+            ]
+        ],
+        [
+            [
+                -4
+            ],
+            [
+                1
+            ],
+            [
+                -2
+            ],
+            [
+                -2
+            ],
+            [
+                3
+            ],
+            [
+                3
+            ]
+        ],
+        [
+            [
+                4
+            ],
+            [
+                0
+            ],
+            [
+                4
+            ],
+            [
+                4
+            ],
+            [
+                2
+            ],
+            [
+                4
+            ]
+        ]
+    ]
+}

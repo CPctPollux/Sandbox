@@ -1,0 +1,119 @@
+/* Container de la grille */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 1.46vw;            
+    padding: 0.5vw 1vw 2.5vw 1vw;
+    margin-top: 10vw;       
+    margin-right: 13vw;      
+    margin-left: 13vw;      
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, sans-serif;
+    
+    /* Height adjusted to match lower top offset while keeping bottom above footer */
+    max-height: 43vw;         /* ~825px / 19.2 */
+    overflow-y: auto;
+
+    /* Top & Bottom Gradient Fade Mask */
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        black 3%,
+        black 94%,
+        transparent 100%
+    );
+    mask-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        black 2%,
+        black 94%,
+        transparent 100%
+    );
+}
+
+/* Bottom Whitespace Spacer for Scroll */
+.grid-container::after {
+    content: "";
+    display: block;
+    height: 2.5vw;            /* 48px / 19.2 */
+    grid-column: 1 / -1;
+}
+
+/* Hide Scrollbar */
+.grid-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Style d'une carte */
+.card {
+    background-color: #ffffff;
+    border-radius: 1.04vw;    /* 20px / 19.2 */
+    padding: 1.04vw;          /* 20px / 19.2 */
+    box-shadow: 0px 0.25vw 0px rgb(220, 220, 225);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 0.1vw solid #E5E5E8;
+    cursor: pointer;
+    transition: transform 0.15s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card:active {
+    transform: scale(0.95);
+}
+
+/* Aperçu image */
+.card-img {
+    width: 100%;
+    height: 8.33vw;           /* 160px / 19.2 */
+    object-fit: cover;
+    border-radius: 0.73vw;    /* 14px / 19.2 */
+    margin-bottom: 0.94vw;   /* 18px / 19.2 */
+}
+
+/* Titre principal */
+.card-title {
+    margin: 0 0 0.26vw 0;    /* 5px / 19.2 */
+    font-size: 1.18vw;       /* ~22.6px / 19.2 */
+    font-weight: 800;
+    color: #2b1736;
+}
+
+/* Temps de prod */
+.card-sub {
+    margin: 0 0 0.73vw 0;    /* 14px / 19.2 */
+    font-size: 0.73vw;       /* 14px / 19.2 */
+    color: #777777;
+}
+
+/* Description */
+.card-desc {
+    margin: 0 0 0.94vw 0;    /* 18px / 19.2 */
+    font-size: 0.71vw;       /* ~13.6px / 19.2 */
+    line-height: 1.35;
+    color: #333333;
+    flex-grow: 1;
+}
+
+/* Conteneur des tags */
+.tags-container {
+    display: flex;
+    gap: 0.42vw;             /* 8px / 19.2 */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Tag individuel */
+.tag {
+    background-color: #f4f3f8;
+    color: #4a3e56;
+    font-size: 0.65vw;       /* ~12.5px / 19.2 */
+    font-weight: 600;
+    padding: 0.31vw 0.73vw; /* 6px 14px / 19.2 */
+    border-radius: 0.625vw;  /* 12px / 19.2 */
+}

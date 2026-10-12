@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Jeu de recherche",
+    "prod_time": "4jh",
+    "description": "Cherche et trouve les bons éléments cachés dans un tableau",
+    "image": "Recherche.png",
+    "tags": ["#Observation", "#Exploration"],
+    "layout" : "Fiche_Recherche"
+  },
+  {
+    "title": "Point & Click",
+    "prod_time": "4jh",
+    "description": "Clique sur les bons éléments de la scène pour résoudre des énigmes",
+    "image": "Point_click.png",
+    "tags": ["#Énigmes", "#Interaction"],
+    "layout" : "Point&Click"
+  },
+  {
+    "title": "Exploration",
+    "prod_time": "4jh",
+    "description": "Explore un monde vu du dessus et accomplis des missions interactives",
+    "image": "Aventure_Top_Down.png",
+    "tags": ["#Exploration", "#Missions"],
+    "layout" : "AventureTopDown"
+  },
+  {
+    "title": "Drag & Drop",
+    "prod_time": "4jh",
+    "description": "Glisse et dépose les éléments au bon endroit pour compléter le défi",
+    "image": "Drag_Drop.png",
+    "tags": ["#Choix", "#Logique"],
+    "layout" : "Drag&Drop"
+  },
+  {
+    "title": "Assemblage",
+    "prod_time": "4jh",
+    "description": "Assemble les pièces entre elles pour reconstituer un ensemble cohérent",
+    "image": "Assemblage.png",
+    "tags": ["#Construction", "#Logique"],
+    "layout" : "Assemblage"
+  },
+  {
+    "title": "Platformer",
+    "prod_time": "4jh",
+    "description": "Saute de plateforme en plateforme et évite les obstacles sur ton chemin",
+    "image": "NA.png",
+    "tags": ["#Action", "#Adresse"],
+    "layout" : "Main_Menu"
+  },
+  {
+    "title": "Fresque",
+    "prod_time": "4jh",
+    "description": "Compose une fresque visuelle en plaçant les éléments dans le bon ordre",
+    "image": "NA.png",
+    "tags": ["#Créativité", "#Logique"],
+    "layout" : "Main_Menu"
+  },
+  {
+    "title": "Jeu narratif",
+    "prod_time": "4jh",
+    "description": "Découvre une histoire interactive dans laquelle tes choix influencent le dénouement",
+    "image": "Histoire.png",
+    "tags": ["#Narration", "#Choix"],
+    "layout" : "Histoire"
+  },
+  {
+    "title": "City Builder",
+    "prod_time": "4jh",
+    "description": "Construis et organise ta propre ville en plaçant bâtiments et infrastructures",
+    "image": "CityBuilder.png",
+    "tags": ["#Construction", "#Stratégie"],
+    "layout" : "CityBuilder"
+  },
+  {
+    "title": "Enquête",
+    "prod_time": "4jh",
+    "description": "Mène l'enquête en collectant des indices et en résolvant des mystères",
+    "image": "NA.png",
+    "tags": ["#Indices", "#Enigmes"],
+    "layout" : "Main_Menu"
+  }
+]

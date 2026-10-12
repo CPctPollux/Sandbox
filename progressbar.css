@@ -1,0 +1,53 @@
+#progressbar1
+{
+	appearance: none;
+}
+
+#progressbar1::-webkit-progress-value {
+
+	background: #f9bf81;
+    border-radius: 100px;
+}
+
+#progressbar1::-webkit-progress-bar {
+
+	background: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+	outline: 1px solid black;
+}
+
+#progressbar2
+{
+	appearance: none;
+}
+
+#progressbar2::-webkit-progress-value {
+
+	background: #61a269;
+    border-radius: 100px;
+}
+
+#progressbar2::-webkit-progress-bar {
+	
+	background: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+	outline: 1px solid black;
+}
+
+#progressbar3
+{
+	appearance: none;
+}
+
+#progressbar3::-webkit-progress-value {
+
+	background: #70bed3;
+    border-radius: 100px;
+}
+
+#progressbar3::-webkit-progress-bar {
+	
+	background: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+	outline: 1px solid black;
+}
