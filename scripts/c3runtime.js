@@ -2278,7 +2278,6 @@ self.C3_ExpressionFuncs = [
 		() => "Back",
 		() => 36,
 		() => 162,
-		() => "Router is running",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0("layout");
