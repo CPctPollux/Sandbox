@@ -61,7 +61,7 @@
     "description": "Découvre une histoire interactive dans laquelle tes choix influencent le dénouement",
     "image": "Thumbnails/Histoire.png",
     "tags": ["#Narration", "#Choix"],
-    "layout" : "Histoire"
+    "layout" : "Histoire_DA1"
   },
   {
     "title": "City Builder",
